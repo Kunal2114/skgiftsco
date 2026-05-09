@@ -121,3 +121,19 @@ button{
   padding:15px;
   cursor:pointer;
 }
+@media(max-width:768px){
+
+  .hero{
+    flex-direction:column;
+  }
+
+  .category-grid,
+  .product-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero-left{
+    width:100%;
+  }
+
+}
